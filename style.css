@@ -1,0 +1,253 @@
+* {
+    font-family: Space Grotesk;
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 60px;
+    gap: 70px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.logo {
+    height: 36px;
+    width: 219.54px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    gap: 10px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 40px;
+    line-height: 28px;
+    padding-top: 20px;
+}
+
+.items {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.items button {
+    width: 231px;
+    height: 68px;
+    border-radius: 14px;
+    border: 1px solid #191A23;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Space Grotesk;
+    background-color: white;
+}
+
+@media only screen and (max-width:1173px) {
+    ul {
+        gap: 20px;
+        padding-right: 0px;
+    }
+}
+
+@media only screen and (max-width:1094px) {
+    ul {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .navbar {
+        gap: 60px;
+        padding-left: 30px;
+    }
+}
+
+/* heroSection */
+.heroSec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    height: 481px;
+    width: 531px;
+}
+
+.text h1 {
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 100%;
+}
+
+.text p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.text button {
+    width: 264px;
+    height: 68px;
+    border-radius: 14px;
+    gap: 10px;
+    padding: 20px 35px 20px 35px;
+    font-weight: 400;
+    font-Size: 20px;
+    Line-height: 28px;
+    background-color: #191A23;
+    color: #FFFFFF;
+}
+
+.pic {
+    width: 600.46px;
+    height: auto;
+}
+
+/* logoTypes */
+.logoTypes {
+    display: flex;
+    flex-direction: row;
+    width: 1040px;
+    height: 24px;
+    justify-content: space-between;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.amazon {
+    width: 124.11px;
+    height: 24px;
+    color: #000000;
+}
+
+.dribble {
+    width: 126.26px;
+    height: 24px;
+    color: #0D0C22;
+}
+
+.hubspot {
+    width: 128.63px;
+    height: 24px;
+    color: #33475B;
+}
+
+.notion {
+    width: 145.55px;
+    height: 24px;
+    color: #000000;
+}
+
+.netflix {
+    width: 125.25px;
+    height: 24px;
+    color: #D81F26;
+}
+
+.zoom {
+    width: 110.57px;
+    height: 24px;
+    color: #2D8CFF;
+}
+
+/* services */
+.services {
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 40px;
+    margin-top: 100px;
+}
+
+.services h2 {
+    width: 164px;
+    height: 51px;
+    background-color: #B9FF66;
+    border-radius: 7px;
+    padding: 10px 7px 0px 17px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 100%;
+    color: #000000;
+}
+
+.services p {
+    width: 540px;
+    height: 46px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: #000000;
+}
+
+/* sevices block */
+.servicesBlock {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1110px;
+    height: auto;
+    padding: 100px 100px 0px 100px;
+    gap: 40px;
+}
+
+/* cards */
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 430px;
+    height: 190px;
+    border-radius: 45px;
+    padding: 50px;
+    border: 1px solid #191A23;
+    background-color: #F3F3F3;
+    color: #191A23;
+}
+
+.textLink {
+    display: flex;
+    flex-direction: column;
+    width: 221px;
+    height: 220px;
+    gap: 93px;
+}
+
+.textLink h3:first-child {
+    height: 38px;
+    border-radius: 7px;
+    gap: 10px;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 100%;
+    background-color: #B9FF66;
+    margin-bottom: 10px;
+}
+
+#h3-1 {
+    width: 231px;
+    height: 38px;
+    background-color: #B9FF66;
+    display: inline-block;
+    padding: 10px;
+}
+
+#h3-2 {
+    width: 181px;
+    height: 38px;
+    background-color: #B9FF66;
+}

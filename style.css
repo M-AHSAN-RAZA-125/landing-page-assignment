@@ -30,12 +30,14 @@ ul {
     gap: 40px;
     line-height: 28px;
     padding-top: 20px;
+    cursor: pointer;
 }
 
 .items {
     display: flex;
     flex-direction: row;
     gap: 40px;
+    font-family: Space Grotesk;
 }
 
 .items button {
@@ -47,12 +49,15 @@ ul {
     font-weight: 400;
     font-family: Space Grotesk;
     background-color: white;
+    cursor: pointer;
+    font-family: Space Grotesk;
 }
 
 @media only screen and (max-width:1173px) {
     ul {
         gap: 20px;
         padding-right: 0px;
+        cursor: pointer;
     }
 }
 
@@ -89,12 +94,14 @@ ul {
     font-weight: 500;
     font-size: 60px;
     line-height: 100%;
+    font-family: Space Grotesk;
 }
 
 .text p {
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
+    font-family: Space Grotesk;
 }
 
 .text button {
@@ -108,6 +115,8 @@ ul {
     Line-height: 28px;
     background-color: #191A23;
     color: #FFFFFF;
+    cursor: pointer;
+    font-family: Space Grotesk;
 }
 
 .pic {
@@ -173,7 +182,7 @@ ul {
 }
 
 .services h2 {
-    width: 164px;
+    width: 140px;
     height: 51px;
     background-color: #B9FF66;
     border-radius: 7px;
@@ -182,6 +191,7 @@ ul {
     font-size: 40px;
     line-height: 100%;
     color: #000000;
+    font-family: Space Grotesk;
 }
 
 .services p {
@@ -191,6 +201,7 @@ ul {
     font-size: 18px;
     line-height: 100%;
     color: #000000;
+    font-family: Space Grotesk;
 }
 
 /* sevices block */
@@ -222,32 +233,327 @@ ul {
     flex-direction: column;
     width: 221px;
     height: 220px;
-    gap: 93px;
 }
 
-.textLink h3:first-child {
+
+.textLink h3 {
+    width: fit-content;
     height: 38px;
-    border-radius: 7px;
     gap: 10px;
     padding-left: 7px;
     padding-right: 7px;
+    padding-bottom: 5px;
     font-weight: 500;
     font-size: 30px;
     line-height: 100%;
     background-color: #B9FF66;
-    margin-bottom: 10px;
-}
-
-#h3-1 {
-    width: 231px;
-    height: 38px;
-    background-color: #B9FF66;
     display: inline-block;
-    padding: 10px;
+    margin-bottom: 0px;
+    border-radius: 7px;
+    font-family: Space Grotesk;
 }
 
 #h3-2 {
-    width: 181px;
-    height: 38px;
+    width: fit-content;
+    border-radius: 7px;
+    margin-bottom: 93px;
+    display: inline-block;
+}
+
+.link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 164px;
+    height: 41px;
+    gap: 15px;
+}
+
+.link a {
+    text-decoration: none;
+    width: 108px;
+    height: 28px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    list-style-type: style regular;
+    color: #000000;
+    padding-top: 5px;
+    cursor: pointer;
+    font-family: Space Grotesk;
+}
+
+.link img {
+    width: 41px;
+    height: 41px;
+    color: #191A23;
+    cursor: pointer;
+}
+
+#card-2,
+#card-5 {
     background-color: #B9FF66;
+}
+
+#card-3,
+#card-6 {
+    background-color: #191A23;
+}
+
+#bgWhite {
+    background-color: #FFFFFF;
+}
+
+#bgWhite-2 {
+    background-color: #FFFFFF;
+    margin-bottom: 93px;
+}
+
+#clrWhite {
+    color: #FFFFFF;
+}
+
+/* cardNO2 */
+.cardNo2 {
+    width: 990px;
+    height: 374px;
+    border-radius: 45px;
+    padding-left: 60px;
+    padding-right: 60px;
+    display: flex;
+    flex-direction: row;
+    gap: 275px;
+    margin-top: 100px;
+    background-color: #F3F3F3;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.cardNo2 .text {
+    height: 227px;
+    width: 500px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.cardNo2 .text h3 {
+    font-family: Space Grotesk;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 100%;
+    color: #000000;
+}
+
+.cardNo2 .text p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: #000000;
+    font-family: Space Grotesk;
+}
+
+.cardNo2 .text button {
+    width: 288px;
+    height: 68px;
+    border-radius: 14px;
+    gap: 10px;
+    padding: 20px 35px;
+    background-color: #191A23;
+    font-family: Space Grotesk;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.cardNo2 .image {
+    width: 494px;
+    height: 394px;
+}
+
+/* Case Studies */
+.caseStudies {
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 40px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.caseStudies h2 {
+    width: 210px;
+    height: 51px;
+    background-color: #B9FF66;
+    border-radius: 7px;
+    padding: 10px 7px 0px 17px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 100%;
+    color: #000000;
+    font-family: Space Grotesk;
+}
+
+.caseStudies p {
+    width: 540px;
+    height: 46px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: #000000;
+    font-family: Space Grotesk;
+}
+
+/* Casestudiesblock */
+.Casestudiesblock {
+    width: 990px;
+    height: 186px;
+    border-radius: 45px;
+    gap: 65px;
+    padding: 70px 60px;
+    background-color: #191A23;
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+
+.CaseStudy {
+    width: 286px;
+    height: 163px;
+    gap: 20px;
+    padding-right: 20px;
+    padding-left: 10px;
+    border-right: 1px solid #FFFFFF;
+}
+
+.CaseStudy p {
+    width: 256px;
+    height: 115px;
+    font-family: Space Grotesk;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+
+.csLink {
+    width: 140.32px;
+    height: 28px;
+    gap: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.csLink a {
+    width: 108px;
+    height: 28px;
+    font-family: Space Grotesk;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #B9FF66;
+    text-decoration: none;
+}
+
+.csLink img {
+    cursor: pointer;
+}
+
+#borderRemove {
+    border-right: none;
+}
+
+/* workingProcess */
+.workingProcess {
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 40px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.workingProcess h2 {
+    width: 350px;
+    height: 51px;
+    background-color: #B9FF66;
+    border-radius: 7px;
+    padding: 10px 7px 0px 17px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 100%;
+    color: #000000;
+    font-family: Space Grotesk;
+}
+
+.workingProcess p {
+    width: 540px;
+    height: 46px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: #000000;
+    font-family: Space Grotesk;
+}
+
+/* Process Block */
+.processBlock {
+    width: 990px;
+    height: 1224px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.prcCard-1 {
+    width: 990px;
+    height: 279px;
+    border-radius: 45px;
+    padding: 41px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #B9FF66;
+}
+
+.prcCard-1-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.prcCard-1-top .text {
+    display: flex;
+    flex-direction: row;
+}
+
+.prcCard-1-top .text .no p{
+    width: 65px;
+    height: 77px;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 100%;
+    color: #000000;
+}
+
+.prcCard-1-top .text .text p{
+    width: 612px;
+    height: 38px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 100%;
+    color: #000000;
+    padding-top: 25px;
+}
+
+.prcCard-1 img {
+    width: 58px;
+    height: 58px;
 }

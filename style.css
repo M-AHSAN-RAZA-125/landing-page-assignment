@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
 * {
     font-family: Space Grotesk, sans-serif;
     margin: 0;
@@ -83,7 +84,7 @@ ul {
     padding: 100px;
 }
 
-.text {
+.heroSec .text {
     display: flex;
     flex-direction: column;
     gap: 35px;
@@ -150,7 +151,7 @@ ul {
 
 .hubspot {
     width: 128.63px;
-    height: 24px;
+    height: 34px;
     color: #33475B;
 }
 
@@ -196,13 +197,14 @@ ul {
 }
 
 .services p {
-    width: 540px;
-    height: 46px;
+    width: 590px;
+    height: 51px;
     font-weight: 400;
     font-size: 18px;
     line-height: 100%;
     color: #000000;
     font-family: Space Grotesk;
+    padding-top: 10px;
 }
 
 /* sevices block */
@@ -227,6 +229,7 @@ ul {
     border: 1px solid #191A23;
     background-color: #F3F3F3;
     color: #191A23;
+    box-shadow: 0px 5px 0 0 #191A23;
 }
 
 .textLink {
@@ -407,12 +410,12 @@ ul {
     line-height: 100%;
     color: #000000;
     font-family: Space Grotesk;
+    padding-top: 10px;
 }
 
 /* Case studies block */
 .Casestudiesblock {
     width: 990px;
-    height: 186px;
     border-radius: 45px;
     gap: 65px;
     padding: 70px 60px;
@@ -426,16 +429,16 @@ ul {
 
 .CaseStudy {
     width: 286px;
-    height: 163px;
     gap: 20px;
     padding-right: 20px;
     padding-left: 10px;
     border-right: 1px solid #FFFFFF;
+    display: flex;
+    flex-direction: column;
 }
 
 .CaseStudy p {
     width: 256px;
-    height: 115px;
     font-family: Space Grotesk;
     font-weight: 400;
     font-size: 18px;
@@ -444,11 +447,12 @@ ul {
 }
 
 .csLink {
-    width: 140.32px;
+    width: 160.32px;
     height: 28px;
     gap: 15px;
     display: flex;
     flex-direction: row;
+    margin-top: auto;
 }
 
 .csLink a {
@@ -461,10 +465,14 @@ ul {
     line-height: 28px;
     color: #B9FF66;
     text-decoration: none;
+    /* display: inline; */
+    margin-top: auto;
 }
 
 .csLink img {
     cursor: pointer;
+    width: 30px;
+    height: 30px;
 }
 
 #borderRemove {
@@ -496,19 +504,19 @@ ul {
 }
 
 .workingProcess p {
-    width: 540px;
+    width: 292px;
     height: 46px;
     font-weight: 400;
     font-size: 18px;
     line-height: 100%;
     color: #000000;
     font-family: Space Grotesk;
+    padding-top: 10px;
 }
 
 /* Process Block */
 .processBlock {
     width: 990px;
-    /* height: 1224px; */
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -518,19 +526,21 @@ ul {
 
 .prcCard-1 {
     width: 990px;
-    /* height: 279px; */
     border-radius: 45px;
     padding: 41px 60px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     background-color: #B9FF66;
+    box-shadow: 0px 5px 0 0 #191A23;
 }
 
 .prcCard-1-top {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    height: 77px;
+    border-bottom: 1px solid #000000;
 }
 
 .prcCard-1-top .text {
@@ -538,18 +548,16 @@ ul {
     flex-direction: row;
 }
 
-.prcCard-1-top .text .no p{
+.prcCard-1-top .text .no p {
     width: 65px;
-    /* height: 77px; */
     font-weight: 500;
     font-size: 60px;
     line-height: 100%;
     color: #000000;
 }
 
-.prcCard-1-top .text .text p{
+.prcCard-1-top .text .text p {
     width: 612px;
-    /* height: 38px; */
     font-weight: 500;
     font-size: 30px;
     line-height: 100%;
@@ -559,5 +567,680 @@ ul {
 
 .prcCard-1 img {
     width: 58px;
-    /* height: 58px; */
+}
+
+.prcCard-1-bottom {
+    margin-top: 30px;
+}
+
+/* PRC card-2 */
+.prcCard-2 {
+    width: 990px;
+    height: 75px;
+    border-radius: 45px;
+    border: 1px solid #191A23;
+    padding: 41px 60px;
+    gap: 10px;
+    background-color: #F3F3F3;
+    box-shadow: 0px 5px 0 0 #191A23;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.prcCard-2 .text {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    width: 712px;
+    padding-top: 15px;
+}
+
+.prcCard-2 .text .no {
+    width: 75px;
+    height: 77px;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 100%;
+    color: #000000;
+}
+
+.prcCard-2 .text .text {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 100%;
+    color: #000000;
+}
+
+/* PRC card-3 */
+.prcCard-3 {
+    width: 990px;
+    height: 75px;
+    border-radius: 45px;
+    border: 1px solid #191A23;
+    padding: 41px 60px;
+    gap: 10px;
+    background-color: #F3F3F3;
+    box-shadow: 0px 5px 0 0 #191A23;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.prcCard-3 .text {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.prcCard-3 .text .no {
+    width: 75px;
+    height: 77px;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 100%;
+    color: #000000;
+}
+
+.prcCard-3 .text .text {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 100%;
+    color: #000000;
+    padding-top: 15px;
+}
+
+/* PRC card-4 */
+.prcCard-4 {
+    width: 990px;
+    height: 75px;
+    border-radius: 45px;
+    border: 1px solid #191A23;
+    padding: 41px 60px;
+    gap: 10px;
+    background-color: #F3F3F3;
+    box-shadow: 0px 5px 0 0 #191A23;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.prcCard-4 .text {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.prcCard-4 .text .no {
+    width: 75px;
+    height: 77px;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 100%;
+    color: #000000;
+}
+
+.prcCard-4 .text .text {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 100%;
+    color: #000000;
+    padding-top: 15px;
+}
+
+/* PRC card-5 */
+.prcCard-5 {
+    width: 990px;
+    height: 75px;
+    border-radius: 45px;
+    border: 1px solid #191A23;
+    padding: 41px 60px;
+    gap: 10px;
+    background-color: #F3F3F3;
+    box-shadow: 0px 5px 0 0 #191A23;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.prcCard-5 .text {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    width: 712px;
+}
+
+.prcCard-5 .text .no {
+    width: 75px;
+    height: 77px;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 100%;
+    color: #000000;
+}
+
+.prcCard-5 .text .text {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 100%;
+    color: #000000;
+    padding-top: 15px;
+}
+
+/* PRC card-6 */
+.prcCard-6 {
+    width: 990px;
+    height: 75px;
+    border-radius: 45px;
+    border: 1px solid #191A23;
+    padding: 41px 60px;
+    gap: 10px;
+    background-color: #F3F3F3;
+    box-shadow: 0px 5px 0 0 #191A23;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.prcCard-6 .text {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.prcCard-6 .text .no {
+    width: 75px;
+    height: 77px;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 100%;
+    color: #000000;
+}
+
+.prcCard-6 .text .text {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 100%;
+    color: #000000;
+    padding-top: 15px;
+}
+
+/* team */
+.team {
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 40px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.team h2 {
+    width: fit-content;
+    height: 51px;
+    background-color: #B9FF66;
+    border-radius: 7px;
+    padding: 10px 7px 0px 17px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 100%;
+    color: #000000;
+    font-family: Space Grotesk;
+}
+
+.team p {
+    width: 473px;
+    height: 46px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: #000000;
+    font-family: Space Grotesk;
+    padding-top: 10px;
+}
+
+/* team card */
+.grpOfTeam {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 990px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 70px;
+}
+
+/* Card TO -1  */
+.cardTp-1 {
+    width: 238px;
+    height: 200px;
+    border: 1px solid#191A23;
+    border-radius: 45px;
+    padding: 40px 30px;
+    gap: 5px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 5px 0 0 #191A23;
+}
+
+.cardTp-1 .person {
+    width: 230px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #000000;
+}
+
+.cardTp-1 .person .image img {
+    width: 75px;
+    height: 75px;
+}
+
+.cardTp-1 .person .bio .text h4 {
+    width: 100px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    color: #000000;
+}
+
+.cardTp-1 .person .bio .text p {
+    width: 260px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+}
+
+.cardTp-1 .person .bio {
+    align-self: flex-end;
+}
+
+.cardTp-1 .person .icon img {
+    height: 20px;
+    width: 20px;
+}
+
+/* Card TO -2  */
+.cardTp-2 {
+    width: 238px;
+    height: 200px;
+    border: 1px solid#191A23;
+    border-radius: 45px;
+    padding: 40px 30px;
+    gap: 5px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 5px 0 0 #191A23;
+}
+
+.cardTp-2 .person {
+    width: 230px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #000000;
+}
+
+.cardTp-2 .person .image img {
+    width: 75px;
+    height: 75px;
+}
+
+.cardTp-2 .person .bio .text h4 {
+    width: 100px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    color: #000000;
+}
+
+.cardTp-2 .person .bio .text p {
+    width: 100px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+}
+
+.cardTp-2 .person .bio {
+    align-self: flex-end;
+}
+
+.cardTp-2 .person .icon img {
+    height: 20px;
+    width: 20px;
+}
+
+/* Card TO -3  */
+.cardTp-3 {
+    width: 238px;
+    height: 200px;
+    border: 1px solid#191A23;
+    border-radius: 45px;
+    padding: 40px 30px;
+    gap: 5px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 5px 0 0 #191A23;
+}
+
+.cardTp-3 .person {
+    width: 230px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #000000;
+}
+
+.cardTp-3 .person .image img {
+    width: 75px;
+    height: 75px;
+}
+
+.cardTp-3 .person .bio .text h4 {
+    width: 100px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    color: #000000;
+}
+
+.cardTp-3 .person .bio .text p {
+    width: 260px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+}
+
+.cardTp-3 .person .bio {
+    align-self: flex-end;
+}
+
+.cardTp-3 .person .icon img {
+    height: 20px;
+    width: 20px;
+}
+
+/* Card TO -4  */
+.cardTp-4 {
+    width: 238px;
+    height: 200px;
+    border: 1px solid#191A23;
+    border-radius: 45px;
+    padding: 40px 30px;
+    gap: 5px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 5px 0 0 #191A23;
+}
+
+.cardTp-4 .person {
+    width: 230px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #000000;
+}
+
+.cardTp-4 .person .image img {
+    width: 75px;
+    height: 75px;
+}
+
+.cardTp-4 .person .bio .text h4 {
+    width: 100px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    color: #000000;
+}
+
+.cardTp-4 .person .bio .text p {
+    width: 260px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+}
+
+.cardTp-4 .person .bio {
+    align-self: flex-end;
+}
+
+.cardTp-4 .person .icon img {
+    height: 20px;
+    width: 20px;
+}
+
+/* Card TO -5  */
+.cardTp-5 {
+    width: 238px;
+    height: 200px;
+    border: 1px solid#191A23;
+    border-radius: 45px;
+    padding: 40px 30px;
+    gap: 5px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 5px 0 0 #191A23;
+}
+
+.cardTp-5 .person {
+    width: 230px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #000000;
+}
+
+.cardTp-5 .person .image img {
+    width: 75px;
+    height: 75px;
+}
+
+.cardTp-5 .person .bio .text h4 {
+    width: 100px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    color: #000000;
+}
+
+.cardTp-5 .person .bio .text p {
+    width: 260px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+}
+
+.cardTp-5 .person .bio {
+    align-self: flex-end;
+}
+
+.cardTp-5 .person .icon img {
+    height: 20px;
+    width: 20px;
+}
+
+.cardTp-5 .content {
+    text-align: start;
+}
+
+/* Card TO -6  */
+.cardTp-6 {
+    width: 238px;
+    height: 200px;
+    border: 1px solid#191A23;
+    border-radius: 45px;
+    padding: 40px 30px;
+    gap: 5px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 5px 0 0 #191A23;
+}
+
+.cardTp-6 .person {
+    width: 230px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #000000;
+}
+
+.cardTp-6 .person .image img {
+    width: 75px;
+    height: 75px;
+}
+
+.cardTp-6 .person .bio .text h4 {
+    width: 100px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    color: #000000;
+}
+
+.cardTp-6 .person .bio .text p {
+    width: 260px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+}
+
+.cardTp-6 .person .bio {
+    align-self: flex-end;
+}
+
+.cardTp-6 .person .icon img {
+    height: 20px;
+    width: 20px;
+}
+
+/* Team Button */
+.teamBtn {
+    width: 200px;
+    height: 48px;
+    border-radius: 14px;
+    margin-left: 915px;
+    background-color: #191A23;
+    color: #FFFFFF;
+}
+
+/* Testimonials */
+.Testimonials {
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 40px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.Testimonials h2 {
+    width: fit-content;
+    height: 51px;
+    background-color: #B9FF66;
+    border-radius: 7px;
+    padding: 10px 7px 0px 17px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 100%;
+    color: #000000;
+    font-family: Space Grotesk;
+}
+
+.Testimonials p {
+    width: 473px;
+    height: 46px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: #000000;
+    font-family: Space Grotesk;
+    padding-top: 10px;
+}
+
+/* Testimonials Block */
+.TestimonialsBlock{
+    width: 990px;
+    height: 525px;
+    margin-left: 100px;
+    border-radius: 45px;
+    background-color: #191A23;
+}
+
+/* Contact Us */
+.con {
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 40px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.con h2 {
+    width: fit-content;
+    height: 51px;
+    background-color: #B9FF66;
+    border-radius: 7px;
+    padding: 10px 7px 0px 17px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 100%;
+    color: #000000;
+    font-family: Space Grotesk;
+}
+
+.con p {
+    width: 473px;
+    height: 46px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: #000000;
+    font-family: Space Grotesk;
+    padding-top: 10px;
+}
+
+/* Contact Block */
+.conBlock{
+    width: 910px;
+    height: 373px;
+    border-radius: 45px;
+    padding: 60px 100px 80px 100px;
+    background-color: #F3F3F3;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 300px;
+    overflow-y: visible;
+    position: relative;
+}
+
+.conBlock .pic img{
+    width: 691px;
+    height: 480px;
+    position: absolute;
+    margin-right: -50px;
 }

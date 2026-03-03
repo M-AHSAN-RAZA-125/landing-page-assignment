@@ -1178,7 +1178,7 @@ ul {
 }
 
 /* Testimonials Block */
-.TestimonialsBlock{
+.TestimonialsBlock {
     width: 990px;
     height: 525px;
     margin-left: 100px;
@@ -1222,25 +1222,68 @@ ul {
 }
 
 /* Contact Block */
-.conBlock{
+.conBlock {
     width: 910px;
-    height: 373px;
+    height: 573px;
     border-radius: 45px;
     padding: 60px 100px 80px 100px;
-    background-color: #F3F3F3;
     display: flex;
     flex-direction: row;
-    gap: 100px;
-    justify-content: space-between;
+    gap: 10px;
+    background-color: #F3F3F3;
     margin-left: 100px;
-    margin-right: 300px;
-    overflow-y: visible;
-    position: relative;
 }
 
-.conBlock .pic img{
-    width: 691px;
-    height: 480px;
-    position: absolute;
-    margin-right: -50px;
+.conBlock .inputs {
+    width: 556px;
+    height: 633px;
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+}
+.conBlock .inputs .info{
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+}
+.conBlock .inputs .info .name ,.email {
+    display: flex;
+    flex-direction: column;
+    gap :5px;
+    width: 556px;
+    height: 92px;
+}
+.conBlock .inputs .info input, textarea{
+    width: 493px;
+    height: 59px;
+    border-radius: 14px;
+    border: 1px solid #000000;
+    padding: 18px 30px ;
+}
+.message-box{
+    display: flex;
+    flex-direction: column;
+    gap :5px;
+    width: 493px;
+    height: 130px;
+}
+.conBlock .inputs .info button{
+    width: 556px;
+    height: 68px;
+    border-radius: 14px;
+    padding: 20px 35px;
+    background-color: #191A23;
+    color: white;
+}
+.conBlock .inputs .radio{
+    display: flex;
+    gap: 30px;
+}
+
+.conBlock .inputs label {
+    display: inline-block;
+    margin-bottom: 6px;
+}
+.conBlock .pic{
+    transform: translateX(13%);
 }

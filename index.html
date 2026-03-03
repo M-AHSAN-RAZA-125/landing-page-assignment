@@ -272,7 +272,7 @@
             </div>
         </div>
         <div class="cardTp-2">
-             <div class="person">
+            <div class="person">
                 <div class="image"><img src="./positivus images/Picture (1).png" alt=""></div>
                 <div class="bio">
                     <div class="text">
@@ -358,24 +358,33 @@
         <div class="TestimonialsNavigation"></div>
     </div>
     <div class="con">
-         <h2>Contact Us</h2>
+        <h2>Contact Us</h2>
         <p>Connect with Us: Let's Discuss Your Digital Marketing Needs</p>
     </div>
     <div class="conBlock">
-        <div class="inputs">
-            <input type="radio">
-            <input type="radio">
-            <label for="name">
-                <input type="text" placeholder="Name">
-            </label>
-              <label for="e-mail">
-                <input type="text" placeholder="E-Mail">
-            </label>
-            <label for="msg">
-                <textarea name="msg" id="" placeholder="Meassage"></textarea>
-            </label>
-            <button>Send Message</button>
-        </div>
+        <form action="form" class="form">
+            <div class="inputs">
+                <div class="radio">
+                    <label><input type="radio" name="contactType">Say Hi</label>
+                    <label><input type="radio" name="contactType" id="faslarkh">Get a Quote</label>
+                </div>
+                <div class="info">
+                    <div class="name">
+                        <label for="username">Name</label>
+                        <input type="text" placeholder="Name" id="username">
+                    </div>
+                    <div class="email">
+                        <label for="e-mail">Email*</label>
+                        <input type="text" placeholder="E-Mail" id="e-mail">
+                    </div>
+                    <div class="msg">
+                        <label for="msg">Message*</label>
+                        <textarea name="msg" id="msg" placeholder="Meassage" class="message-box"></textarea>
+                    </div>
+                    <button>Send Message</button>
+                </div>
+            </div>
+        </form>
         <div class="pic"><img src="./positivus images/Illustration (3).png" alt=""></div>
     </div>
 </body>

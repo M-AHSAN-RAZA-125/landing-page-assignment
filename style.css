@@ -164,13 +164,13 @@ ul {
 .netflix {
     width: 125.25px;
     height: 24px;
-    color: #D81F26;
+    color: #000000;
 }
 
 .zoom {
     width: 110.57px;
     height: 24px;
-    color: #2D8CFF;
+    color: #000000;
 }
 
 /* services */
@@ -317,7 +317,10 @@ ul {
 #clrWhite {
     color: #FFFFFF;
 }
-
+.servicesBlock .card .cardPic img{
+    width: 180px;
+    height: 190px;
+}
 /* cardNO2 */
 .cardNo2 {
     width: 990px;
@@ -1196,12 +1199,91 @@ ul {
 }
 
 /* Testimonials Block */
-.TestimonialsBlock {
-    width: 990px;
-    height: 525px;
-    margin-left: 100px;
-    border-radius: 45px;
-    background-color: #191A23;
+
+.testimonials {
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.testimonial-container {
+  width: 1100px;
+  background: #191A23;
+  padding: 70px 0;
+  border-radius: 45px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 200px;
+}
+
+.testimonial-track {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  transform: translateX(0);
+}
+
+.testimonial-container .testimonial-track .card {
+  width: 500px;
+  flex-shrink: 0;
+  text-align: center;
+  color: white;
+  opacity: 1;
+  transition: .4s;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: transparent;
+  padding: 0px;
+}
+
+.bubble {
+  border: 2px solid #a3e635;
+  border-radius: 25px;
+  padding: 35px;
+  position: relative;
+  background: transparent;
+}
+
+.card h4 {
+  color: #a3e635;
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+.card span {
+  font-size: 14px;
+  color: #ccc;
+}
+
+.testimonial-track .card .bubble p {
+  text-align: start;
+}
+
+.testimonial-track .card .Tp{
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  padding-left: 100px;
+}
+.dots {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.dots span {
+  width: 8px;
+  height: 8px;
+  background: #666;
+  border-radius: 50%;
+}
+
+.dots .active-dot {
+  background: #a3e635;
 }
 
 /* Contact Us */

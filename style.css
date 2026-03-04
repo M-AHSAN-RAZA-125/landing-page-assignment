@@ -11,10 +11,14 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 60px;
     gap: 70px;
     padding-right: 100px;
     padding-left: 100px;
+    position: fixed;
+    background-color: #FFFFFF;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    z-index: 1000;
 }
 
 #logo {
@@ -33,6 +37,33 @@ ul {
     line-height: 28px;
     padding-top: 20px;
     cursor: pointer;
+    font-size: large;
+}
+
+ul a {
+    text-decoration: none;
+    color: #191A23;
+}
+
+ul a {
+    position: relative;
+    text-decoration: none;
+    color: black;
+}
+
+ul a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background: #B9FF66;
+    transition: width 0.4s ease;
+}
+
+ul a:hover::after {
+    width: 100%;
 }
 
 .items {
@@ -43,8 +74,7 @@ ul {
 }
 
 .items button {
-    width: 231px;
-    height: 68px;
+    padding: 10px 20px;
     border-radius: 14px;
     border: 1px solid #191A23;
     font-size: 20px;
@@ -53,6 +83,13 @@ ul {
     background-color: white;
     cursor: pointer;
     font-family: Space Grotesk;
+    transition: 1s ease;
+}
+
+.items button:hover {
+    background-color: #191A23;
+    color: white;
+    transform: scaley(1.1);
 }
 
 @media only screen and (max-width:1173px) {
@@ -119,6 +156,13 @@ ul {
     color: #FFFFFF;
     cursor: pointer;
     font-family: Space Grotesk;
+    transition: 1s ease;
+}
+
+.text button:hover {
+    color: #191A23;
+    background-color: #FFFFFF;
+    transform: scaley(1.1);
 }
 
 .pic {
@@ -218,7 +262,7 @@ ul {
 }
 
 /* cards */
-.card {
+.servicesBlock .card {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -230,6 +274,13 @@ ul {
     background-color: #F3F3F3;
     color: #191A23;
     box-shadow: 0px 5px 0 0 #191A23;
+    animation: float 3s ease-in-out infinite;
+    transition: transform 0.3s ease;
+}
+
+.servicesBlock .card:hover {
+    animation: none;
+    transform: scale(1.1);
 }
 
 .textLink {
@@ -293,6 +344,11 @@ ul {
     height: 41px;
     color: #191A23;
     cursor: pointer;
+    transition: 1s ease;
+}
+
+.link img:hover {
+    transform: rotate(30deg);
 }
 
 #card-2,
@@ -317,10 +373,12 @@ ul {
 #clrWhite {
     color: #FFFFFF;
 }
-.servicesBlock .card .cardPic img{
+
+.servicesBlock .card .cardPic img {
     width: 180px;
     height: 190px;
 }
+
 /* cardNO2 */
 .cardNo2 {
     width: 990px;
@@ -376,6 +434,13 @@ ul {
     font-size: 20px;
     line-height: 28px;
     color: #FFFFFF;
+    transition: 1s ease;
+}
+
+.cardNo2 .text button:hover {
+    color: #191A23;
+    background-color: #FFFFFF;
+    transform: scaley(1.1);
 }
 
 .cardNo2 .image {
@@ -479,6 +544,11 @@ ul {
     cursor: pointer;
     width: 30px;
     height: 30px;
+    transition: 1s ease;
+}
+
+.csLink img:hover {
+    transform: rotate(30deg);
 }
 
 #borderRemove {
@@ -619,6 +689,7 @@ ul {
     line-height: 100%;
     color: #000000;
 }
+
 .prcCard-2 img {
     cursor: pointer;
 }
@@ -661,6 +732,7 @@ ul {
     color: #000000;
     padding-top: 15px;
 }
+
 .prcCard-3 img {
     cursor: pointer;
 }
@@ -703,6 +775,7 @@ ul {
     color: #000000;
     padding-top: 15px;
 }
+
 .prcCard-4 img {
     cursor: pointer;
 }
@@ -746,9 +819,11 @@ ul {
     color: #000000;
     padding-top: 15px;
 }
+
 .prcCard-5 img {
     cursor: pointer;
 }
+
 /* PRC card-6 */
 .prcCard-6 {
     width: 990px;
@@ -787,6 +862,7 @@ ul {
     color: #000000;
     padding-top: 15px;
 }
+
 .prcCard-6 img {
     cursor: pointer;
 }
@@ -847,6 +923,13 @@ ul {
     gap: 5px;
     background-color: #FFFFFF;
     box-shadow: 0px 5px 0 0 #191A23;
+    animation: float 3s ease-in-out infinite;
+    transition: transform 0.3s ease;
+}
+
+.cardTp-5:hover {
+    animation: none;
+    transform: scale(1.1);
 }
 
 .cardTp-1 .person {
@@ -899,6 +982,13 @@ ul {
     gap: 5px;
     background-color: #FFFFFF;
     box-shadow: 0px 5px 0 0 #191A23;
+    animation: float 3s ease-in-out infinite;
+    transition: transform 0.3s ease;
+}
+
+.cardTp-2:hover {
+    animation: none;
+    transform: scale(1.1);
 }
 
 .cardTp-2 .person {
@@ -951,6 +1041,13 @@ ul {
     gap: 5px;
     background-color: #FFFFFF;
     box-shadow: 0px 5px 0 0 #191A23;
+    animation: float 3s ease-in-out infinite;
+    transition: transform 0.3s ease;
+}
+
+.cardTp-3:hover {
+    animation: none;
+    transform: scale(1.1);
 }
 
 .cardTp-3 .person {
@@ -1003,6 +1100,13 @@ ul {
     gap: 5px;
     background-color: #FFFFFF;
     box-shadow: 0px 5px 0 0 #191A23;
+    animation: float 3s ease-in-out infinite;
+    transition: transform 0.3 ease;
+}
+
+.cardTp-4:hover {
+    animation: none;
+    transform: scale(1.1);
 }
 
 .cardTp-4 .person {
@@ -1055,6 +1159,14 @@ ul {
     gap: 5px;
     background-color: #FFFFFF;
     box-shadow: 0px 5px 0 0 #191A23;
+    animation: float 3s ease-in-out infinite;
+    transition: transform 0.3s ease;
+    ;
+}
+
+.cardTp-5:hover {
+    animation: none;
+    transform: scale(1.1);
 }
 
 .cardTp-5 .person {
@@ -1111,6 +1223,13 @@ ul {
     gap: 5px;
     background-color: #FFFFFF;
     box-shadow: 0px 5px 0 0 #191A23;
+    animation: float 3s ease-in-out infinite;
+    transition: transform 0.3s ease;
+}
+
+.cardTp-6:hover {
+    animation: none;
+    transform: scale(1.1);
 }
 
 .cardTp-6 .person {
@@ -1161,6 +1280,13 @@ ul {
     margin-left: 915px;
     background-color: #191A23;
     color: #FFFFFF;
+    transition: 1s ease;
+}
+
+.teamBtn:hover {
+    color: #191A23;
+    background-color: #FFFFFF;
+    transform: scale(1.1);
 }
 
 /* Testimonials */
@@ -1171,7 +1297,6 @@ ul {
     padding-right: 100px;
     gap: 40px;
     margin-top: 100px;
-    margin-bottom: 100px;
 }
 
 .Testimonials h2 {
@@ -1201,89 +1326,90 @@ ul {
 /* Testimonials Block */
 
 .testimonials {
-  padding: 100px 0;
-  display: flex;
-  justify-content: center;
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
 }
 
 .testimonial-container {
-  width: 1100px;
-  background: #191A23;
-  padding: 70px 0;
-  border-radius: 45px;
-  overflow: hidden;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  gap: 200px;
+    width: 1100px;
+    background: #191A23;
+    padding: 70px 0;
+    border-radius: 45px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
 }
 
 .testimonial-track {
-  display: flex;
-  gap: 40px;
-  justify-content: center;
-  transform: translateX(0);
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    transform: translateX(0);
 }
 
 .testimonial-container .testimonial-track .card {
-  width: 500px;
-  flex-shrink: 0;
-  text-align: center;
-  color: white;
-  opacity: 1;
-  transition: .4s;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  background-color: transparent;
-  padding: 0px;
+    width: 500px;
+    flex-shrink: 0;
+    text-align: center;
+    color: white;
+    opacity: 1;
+    transition: .4s;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: transparent;
+    padding: 0px;
 }
 
 .bubble {
-  border: 2px solid #a3e635;
-  border-radius: 25px;
-  padding: 35px;
-  position: relative;
-  background: transparent;
+    border: 2px solid #a3e635;
+    border-radius: 25px;
+    padding: 35px;
+    position: relative;
+    background: transparent;
 }
 
 .card h4 {
-  color: #a3e635;
-  margin-top: 30px;
-  font-size: 18px;
+    color: #a3e635;
+    margin-top: 30px;
+    font-size: 18px;
 }
 
 .card span {
-  font-size: 14px;
-  color: #ccc;
+    font-size: 14px;
+    color: #ccc;
 }
 
 .testimonial-track .card .bubble p {
-  text-align: start;
+    text-align: start;
 }
 
-.testimonial-track .card .Tp{
-  display: flex;
-  flex-direction: column;
-  text-align: start;
-  padding-left: 100px;
+.testimonial-track .card .Tp {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding-left: 100px;
 }
+
 .dots {
-  margin-top: 40px;
-  display: flex;
-  justify-content: center;
-  gap: 12px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
 }
 
 .dots span {
-  width: 8px;
-  height: 8px;
-  background: #666;
-  border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    background: #666;
+    border-radius: 50%;
 }
 
 .dots .active-dot {
-  background: #a3e635;
+    background: #a3e635;
 }
 
 /* Contact Us */
@@ -1293,7 +1419,6 @@ ul {
     padding-left: 100px;
     padding-right: 100px;
     gap: 40px;
-    margin-top: 100px;
     margin-bottom: 100px;
 }
 
@@ -1340,6 +1465,17 @@ ul {
     display: flex;
     flex-direction: column;
     gap: 25px;
+    transition: 1s ease;
+}
+
+.conBlock .inputs .info input:hover {
+    color: #F3F3F3;
+    background-color: #000000;
+}
+
+.conBlock .inputs .info textarea:hover {
+    color: #F3F3F3;
+    background-color: #000000;
 }
 
 .conBlock .inputs .info {
@@ -1381,12 +1517,19 @@ textarea {
     padding: 20px 35px;
     background-color: #191A23;
     color: white;
+    transition: 1s ease;
+}
+
+.conBlock .inputs .info button:hover {
+    background-color: #FFFFFF;
+    color: #191A23;
+    transform: scaley(1.1);
 }
 
 .conBlock .inputs .radio {
     display: flex;
     gap: 30px;
-    accent-color:#B9FF66 ;
+    accent-color: #B9FF66;
     font-size: 20px;
 }
 
@@ -1495,6 +1638,12 @@ textarea {
     height: 18px;
     gap: 10px;
     border: 1px solid #FFFFFF;
+    transition: 0.5s ease;
+}
+
+.subscribe-box input:hover {
+    background-color: #FFFFFF;
+    color: #191A23;
 }
 
 .subscribe-box button {
@@ -1505,6 +1654,12 @@ textarea {
     cursor: pointer;
     font-weight: 400;
     font-size: 13px;
+    transition: 0.5s ease;
+}
+
+.subscribe-box button:hover {
+    color: #B9FF66;
+    background-color: #191A23;
 }
 
 /* BOTTOM */
@@ -1540,5 +1695,21 @@ textarea {
 
     .subscribe-box input {
         width: 100%;
+    }
+}
+
+
+/* Animation */
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0px);
     }
 }

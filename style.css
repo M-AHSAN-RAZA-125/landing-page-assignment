@@ -151,6 +151,7 @@ ul a:hover::after {
     gap: 35px;
     height: 481px;
     width: 531px;
+    animation: slideLeft 1s ease;
 }
 
 .text h1 {
@@ -192,6 +193,7 @@ ul a:hover::after {
 .pic {
     width: 600.46px;
     height: auto;
+    animation: slideRight 1s ease;
 }
 
 /* logoTypes */
@@ -821,8 +823,9 @@ ul a:hover::after {
 .prcCard-2 img {
     cursor: pointer;
 }
-@media only screen and (max-width:1024px){
-    .prcCard-2{
+
+@media only screen and (max-width:1024px) {
+    .prcCard-2 {
         width: 880px;
         padding-left: 30px;
         padding-right: 30px;
@@ -872,8 +875,9 @@ ul a:hover::after {
 .prcCard-3 img {
     cursor: pointer;
 }
-@media only screen and (max-width:1024px){
-    .prcCard-3{
+
+@media only screen and (max-width:1024px) {
+    .prcCard-3 {
         width: 880px;
         padding-left: 30px;
         padding-right: 30px;
@@ -923,8 +927,9 @@ ul a:hover::after {
 .prcCard-4 img {
     cursor: pointer;
 }
-@media only screen and (max-width:1024px){
-    .prcCard-4{
+
+@media only screen and (max-width:1024px) {
+    .prcCard-4 {
         width: 880px;
         padding-left: 30px;
         padding-right: 30px;
@@ -975,8 +980,9 @@ ul a:hover::after {
 .prcCard-5 img {
     cursor: pointer;
 }
-@media only screen and (max-width:1024px){
-    .prcCard-5{
+
+@media only screen and (max-width:1024px) {
+    .prcCard-5 {
         width: 880px;
         padding-left: 30px;
         padding-right: 30px;
@@ -1026,8 +1032,9 @@ ul a:hover::after {
 .prcCard-6 img {
     cursor: pointer;
 }
-@media only screen and (max-width:1024px){
-    .prcCard-6{
+
+@media only screen and (max-width:1024px) {
+    .prcCard-6 {
         width: 880px;
         padding-left: 30px;
         padding-right: 30px;
@@ -1080,8 +1087,9 @@ ul a:hover::after {
     margin-right: 150px;
     margin-bottom: 70px;
 }
-@media only screen and (max-width:1024px){
-    .grpOfTeam{
+
+@media only screen and (max-width:1024px) {
+    .grpOfTeam {
         width: 890px;
         padding-left: 30px;
         padding-right: 30px;
@@ -1149,15 +1157,16 @@ ul a:hover::after {
     width: 20px;
 }
 
-@media only screen and (max-width:1024px){
-  .cardTp-1{
-    width: 220px;
-    height: 230px;
-    padding: 30px 20px;
-  }
-  .cardTp-1 .person{
-    width: 200px;
-  }
+@media only screen and (max-width:1024px) {
+    .cardTp-1 {
+        width: 220px;
+        height: 230px;
+        padding: 30px 20px;
+    }
+
+    .cardTp-1 .person {
+        width: 200px;
+    }
 }
 
 /* Card TO -2  */
@@ -1218,15 +1227,17 @@ ul a:hover::after {
     height: 20px;
     width: 20px;
 }
-@media only screen and (max-width:1024px){
-  .cardTp-2{
-    width: 220px;
-    height: 230px;
-    padding: 30px 20px;
-  }
-  .cardTp-2 .person{
-    width: 200px;
-  }
+
+@media only screen and (max-width:1024px) {
+    .cardTp-2 {
+        width: 220px;
+        height: 230px;
+        padding: 30px 20px;
+    }
+
+    .cardTp-2 .person {
+        width: 200px;
+    }
 }
 
 /* Card TO -3  */
@@ -1287,15 +1298,17 @@ ul a:hover::after {
     height: 20px;
     width: 20px;
 }
-@media only screen and (max-width:1024px){
-  .cardTp-3{
-    width: 220px;
-    height: 230px;
-    padding: 30px 20px;
-  }
-  .cardTp-3 .person{
-    width: 200px;
-  }
+
+@media only screen and (max-width:1024px) {
+    .cardTp-3 {
+        width: 220px;
+        height: 230px;
+        padding: 30px 20px;
+    }
+
+    .cardTp-3 .person {
+        width: 200px;
+    }
 }
 
 /* Card TO -4  */
@@ -1356,15 +1369,17 @@ ul a:hover::after {
     height: 20px;
     width: 20px;
 }
-@media only screen and (max-width:1024px){
-  .cardTp-4{
-    width: 220px;
-    height: 230px;
-    padding: 30px 20px;
-  }
-  .cardTp-4 .person{
-    width: 200px;
-  }
+
+@media only screen and (max-width:1024px) {
+    .cardTp-4 {
+        width: 220px;
+        height: 230px;
+        padding: 30px 20px;
+    }
+
+    .cardTp-4 .person {
+        width: 200px;
+    }
 }
 
 /* Card TO -5  */
@@ -1430,15 +1445,17 @@ ul a:hover::after {
 .cardTp-5 .content {
     text-align: start;
 }
-@media only screen and (max-width:1024px){
-  .cardTp-5{
-    width: 220px;
-    height: 230px;
-    padding: 30px 20px;
-  }
-  .cardTp-5 .person{
-    width: 200px;
-  }
+
+@media only screen and (max-width:1024px) {
+    .cardTp-5 {
+        width: 220px;
+        height: 230px;
+        padding: 30px 20px;
+    }
+
+    .cardTp-5 .person {
+        width: 200px;
+    }
 }
 
 /* Card TO -6  */
@@ -1499,15 +1516,17 @@ ul a:hover::after {
     height: 20px;
     width: 20px;
 }
-@media only screen and (max-width:1024px){
-  .cardTp-6{
-    width: 220px;
-    height: 230px;
-    padding: 30px 20px;
-  }
-  .cardTp-6 .person{
-    width: 200px;
-  }
+
+@media only screen and (max-width:1024px) {
+    .cardTp-6 {
+        width: 220px;
+        height: 230px;
+        padding: 30px 20px;
+    }
+
+    .cardTp-6 .person {
+        width: 200px;
+    }
 }
 
 /* Team Button */
@@ -1526,8 +1545,9 @@ ul a:hover::after {
     background-color: #FFFFFF;
     transform: scale(1.1);
 }
-@media only screen and (max-width:1024px){
-    .teamBtn{
+
+@media only screen and (max-width:1024px) {
+    .teamBtn {
         margin-left: 715px;
     }
 }
@@ -1654,20 +1674,24 @@ ul a:hover::after {
 .dots .active-dot {
     background: #a3e635;
 }
-@media only screen and (max-width:1024px){
-    .testimonial-container{
+
+@media only screen and (max-width:1024px) {
+    .testimonial-container {
         margin-left: 50px;
         width: 930px;
     }
-    .bubble{
+
+    .bubble {
         padding: 35px 30px;
         margin-left: 30px;
         margin-right: 30px;
     }
+
     .testimonial-track {
         gap: 0px;
     }
-    .testimonial-track .active{
+
+    .testimonial-track .active {
         width: 250px;
     }
 }
@@ -1800,6 +1824,56 @@ textarea {
 
 .conBlock .pic {
     transform: translateX(13%);
+    animation: none;
+}
+
+@media only screen and (max-width:1024px) {
+    .conBlock {
+        padding: 0px;
+        margin-left: 50px;
+        width: 930px;
+        height: 650px;
+    }
+
+    .conBlock .inputs{
+        gap: 10px;
+        align-items: center;
+    }
+    .conBlock .inputs .radio {
+        padding-left: 20px;
+        padding-top: 50px;
+    }
+
+    .conBlock .inputs .info {
+        padding-left: 20px;
+        padding-bottom: 50px;
+        width: 350px;
+    }
+
+    .conBlock .inputs .info input {
+        width: 350px;
+    }
+
+    .conBlock .inputs .info textarea {
+        width: 350px;
+    }
+
+    .conBlock .inputs .info button {
+        width: 350px;
+       margin-left: 25px;
+    }
+    .conBlock .inputs .info .name, .email {
+        width: 350px;
+    }
+    .conBlock .pic {
+    transform: translateX(8%);
+    margin-left: 0px;
+}
+.conBlock .pic img{
+    width: 680px;
+    height: 650px;
+    margin-left: 0px;
+}
 }
 
 /* Footer */
@@ -1972,4 +2046,30 @@ textarea {
     100% {
         transform: translateY(0px);
     }
+}
+
+@keyframes slideLeft {
+    0% {
+        transform: translateX(-50%);
+        opacity: 0.1;
+    }
+
+    100% {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+
+}
+
+@keyframes slideRight {
+    0% {
+        transform: translateX(150%);
+        opacity: 0.1;
+    }
+
+    100% {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+
 }

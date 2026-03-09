@@ -1644,8 +1644,8 @@ ul a:hover::after {
 }
 
 .subscribe-box input:hover {
-    background-color: #ffffff;
-    color: #191A23;
+    border-color:#B9FF66 ;
+    color: #B9FF66;
 }
 
 .subscribe-box button {
